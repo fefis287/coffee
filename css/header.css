@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+header{
+width:100%;
+display: flex;
+justify-content: space-around;
+align-items:center;
+
+
+
+}
+
+body
+{
+  background-color: #FFFEF8;
+}
+
+
+
+.logo-cafe {
+  margin-top: 0.938rem;
+  margin-right: 37.5rem; /* Removendo a margem à direita */
+  margin-left: 0; /* Definindo a margem à esquerda */
+  width: 7.5rem; 
+  height: 6.75rem;  
+}
+
+.nav-links li
+{
+display: inline-block;
+margin: 0 2.3rem;
+
+}
+
+.nav-links  li a
+{
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+  font-family:"Inter", sans-serif;
+  font-style: black italic;
+  font-weight: bold
+  
+}
+
+li:nth-child(5)
+{
+  border:solid;
+  border-radius: 15.813rem;
+  padding: .5rem 1.5rem .5rem 1.5rem
+
+}
+
+nav li:hover{
+  transition: transform 1s;
+  transform: scale(1.07);
+  color: #521B04;
+}
+
+nav li a:hover{
+  color: #521B04;
+  text-underline-offset: 1rem;}
+
+
+  li:nth-child(5):hover
+{
+  transition: transform 1s;
+  transform: scale(1.07);
+}
+
+li:nth-child(5):hover
+{
+  text-underline-offset: 1rem;}
