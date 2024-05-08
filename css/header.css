@@ -53,14 +53,6 @@ margin: 0 2.3rem;
   
 }
 
-li:nth-child(5)
-{
-  border:solid;
-  border-radius: 15.813rem;
-  padding: .5rem 1.5rem .5rem 1.5rem
-
-}
-
 nav li:hover{
   transition: transform 1s;
   transform: scale(1.07);
@@ -71,13 +63,30 @@ nav li a:hover{
   color: #521B04;
   text-underline-offset: 1rem;}
 
-
-  li:nth-child(5):hover
+.Entre-link
 {
-  transition: transform 1s;
-  transform: scale(1.07);
+  border:solid;
+  border-radius: 15.813rem;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  background-color:#FFFEF8;
+  font-size: 1.25rem;
+  color: black;
+  font-family:"Inter", sans-serif;
+  font-style: black italic;
+  font-weight: bold
 }
 
-li:nth-child(5):hover
-{
-  text-underline-offset: 1rem;}
+.Entre-link:hover {
+  border:  solid #521B04;
+  color: #521B04;
+  transition: transform 1s;
+  transform: scale(1.07);
+
+}
+
+/* WebCoffee */
+
+
+
+
+
