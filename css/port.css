@@ -1,0 +1,18 @@
+.Titulo2
+{
+    display: block; 
+  margin: 12.5rem auto 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align:center;
+  width: 10rem;
+  border:none;
+  border-radius: 1.188rem;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  background-color:#44210E;
+  font-size: 1.5rem;
+  color: #FFEEE4;
+  font-family:"Inter", sans-serif;
+  font-style: black italic;
+  font-weight: bold
+}

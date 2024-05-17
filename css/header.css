@@ -3,6 +3,9 @@
 
 
 
+html {
+  scroll-behavior: smooth;
+}
 
 *{
 padding: 0;
@@ -22,8 +25,6 @@ padding: 0 0;
 position: fixed;
 top: 0;
 left: 0;
-z-index: 999; 
-
 
 }
 
@@ -164,4 +165,440 @@ nav li a:hover{
   font-family:"Inter", sans-serif;
   font-style: black italic;
   font-weight: bold
+}
+
+.quadrado-um
+{
+  border:solid #44210E;
+  border-radius: 1.188rem;
+  width: 93.75rem; /* Largura do quadrado */
+  height: 43.938rem; /* Altura do quadrado */
+  background-color: #FFFEF8; /* Cor de fundo */
+  display: block;
+  margin: 1.5rem auto 0;
+}
+
+
+/* USEX */
+.userex
+{
+ 
+position: absolute;
+width: 165px;
+height: 24px;
+left: 300px;
+top: 1192px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+
+}
+
+.pincel
+{
+
+position: absolute;
+width: 49px;
+height: 49px;
+left: 358px;
+top: 1138px;
+
+background: url(pincel.png);
+}
+
+
+.usertex{
+
+position: absolute;
+width: 221px;
+height: 163px;
+left: 280px;
+top: 1232px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+}
+
+
+/* Tela */
+.Tela
+{
+  
+position: absolute;
+width: 47px;
+height: 47px;
+left: 695px;
+top: 1140px;
+
+}
+
+.telax
+{
+
+position: absolute;
+width: 216px;
+height: 24px;
+left: 610px;
+top: 1192px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+
+}
+
+.telatex
+{
+
+position: absolute;
+width: 221px;
+height: 164px;
+left: 610px;
+top: 1232px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+}
+
+
+/* Suporte */
+.sup
+{
+ 
+position: absolute;
+width: 48px;
+height: 42px;
+left: 1056px;
+top: 1141px;
+
+}
+
+.supx
+{
+ 
+
+position: absolute;
+width: 82px;
+height: 24px;
+left: 1039px;
+top: 1192px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+}
+
+.suptex
+{
+ 
+position: absolute;
+width: 221px;
+height: 162px;
+left: 989px;
+top: 1232px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+}
+
+
+/* personalizacao */
+.per
+{
+
+position: absolute;
+width: 47px;
+height: 47px;
+left: 1400px;
+top: 1136px;
+
+}
+
+.perx
+{
+
+position: absolute;
+width: 155px;
+height: 24px;
+left: 1336px;
+top: 1192px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+
+}
+
+.pertex
+{
+
+position: absolute;
+width: 221px;
+height: 252px;
+left: 1310px;
+top: 1232px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+}
+
+/*raio*/
+
+.raio
+{
+ 
+position: absolute;
+width: 47px;
+height: 47px;
+left: 358px;
+top: 1478.82px;
+
+background: url(raio.png);
+transform: matrix(0.7, 0.72, 0.72, -0.7, 0, 0);
+
+}
+
+.raiox
+{
+position: absolute;
+width: 165px;
+height: 24px;
+left: 300px;
+top: 1540px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+
+}
+
+.raiotex
+{
+ 
+position: absolute;
+width: 220px;
+height: 162px;
+left: 280px;
+top: 1579px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+}
+
+/*google*/
+
+.goo
+{
+
+position: absolute;
+width: 43px;
+height: 43px;
+left: 695px;
+top: 1478.82px;
+
+background: url(google.png);
+
+}
+
+.goox
+{
+ 
+
+position: absolute;
+width: 242px;
+height: 24px;
+left: 600px;
+top: 1540px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+
+}
+
+.gootex
+{
+  
+position: absolute;
+width: 221px;
+height: 162px;
+left: 610px;
+top: 1579px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+}
+
+.ace
+{
+
+position: absolute;
+width: 63px;
+height: 63px;
+left: 1056px;
+top: 1460px;
+
+
+}
+
+.acex
+{
+
+position: absolute;
+width: 150px;
+height: 24px;
+left: 1015px;
+top: 1540px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+
+}
+
+.acetex
+{
+  
+position: absolute;
+width: 221px;
+height: 162px;
+left: 989px;
+top: 1579px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+}
+
+.cell
+{
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 1400px;
+top: 1470px;
+
+}
+
+.cellx
+{
+
+position: absolute;
+width: 185px;
+height: 24px;
+left: 1336px;
+top: 1540px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+
+color: #521B04;
+
+
+}
+
+.celltex
+{
+  
+position: absolute;
+width: 224px;
+height: 162px;
+left: 1330px;
+top: 1579px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
 }
