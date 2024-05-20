@@ -168,438 +168,92 @@ nav li a:hover{
   font-weight: bold
 }
 
-.quadrado-um
-{
-  border:solid #44210E;
+.quadrado-um {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  border: solid color:none;
   border-radius: 1.188rem;
   width: 93.75rem; /* Largura do quadrado */
   height: 43.938rem; /* Altura do quadrado */
   background-color: #FFFEF8; /* Cor de fundo */
-  display: block;
   margin: 1.5rem auto 0;
+  padding: 2rem; /* Adicionando preenchimento */
 }
 
-
-/* USEX */
-.userex
-{
- 
-position: absolute;
-width: 165px;
-height: 24px;
-left: 300px;
-top: 1192px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-
+.section {
+  flex: 1 1 300px;
+  padding: 1.5rem;
+  border-radius: 1.188rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: transparent;
+  border: solid 2px transparent; /* Adicionando uma borda transparente com a mesma largura */
+  transition: border-color 0.3s, padding 0.3s; /* Adicionando uma transição suave para a mudança de cor da borda e do padding */
 }
 
-.pincel
-{
-
-position: absolute;
-width: 49px;
-height: 49px;
-left: 358px;
-top: 1138px;
-
-background: url(pincel.png);
+.section:hover {
+  border-color: #44210E; /* Adicionando a cor da borda apenas no hover */
+  padding: 1.5rem; /* Restaurando o padding original no hover */
 }
 
-
-.usertex{
-
-position: absolute;
-width: 221px;
-height: 163px;
-left: 280px;
-top: 1232px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
+.section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #521B04;
 }
 
-
-/* Tela */
-.Tela
-{
-  
-position: absolute;
-width: 47px;
-height: 47px;
-left: 695px;
-top: 1140px;
-
+.section p {
+  font-size: 1rem;
+  color: #000;
 }
 
-.telax
-{
-
-position: absolute;
-width: 216px;
-height: 24px;
-left: 610px;
-top: 1192px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-
+/* Estilos para as imagens */
+.pincel,
+.Tela,
+.sup,
+.per,
+.raio,
+.goo,
+.ace,
+.cell {
+  width: 47px;
+  height: 47px;
 }
 
-.telatex
-{
-
-position: absolute;
-width: 221px;
-height: 164px;
-left: 610px;
-top: 1232px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
+/* Estilos para os títulos */
+.userex,
+.telax,
+.supx,
+.perx,
+.raiox,
+.goox,
+.acex,
+.cellx {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  color: #521B04;
+  margin-top: 1rem;
 }
 
-
-/* Suporte */
-.sup
-{
- 
-position: absolute;
-width: 48px;
-height: 42px;
-left: 1056px;
-top: 1141px;
-
-}
-
-.supx
-{
- 
-
-position: absolute;
-width: 82px;
-height: 24px;
-left: 1039px;
-top: 1192px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-}
-
-.suptex
-{
- 
-position: absolute;
-width: 221px;
-height: 162px;
-left: 989px;
-top: 1232px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-
-}
-
-
-/* personalizacao */
-.per
-{
-
-position: absolute;
-width: 47px;
-height: 47px;
-left: 1400px;
-top: 1136px;
-
-}
-
-.perx
-{
-
-position: absolute;
-width: 155px;
-height: 24px;
-left: 1336px;
-top: 1192px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-
-}
-
-.pertex
-{
-
-position: absolute;
-width: 221px;
-height: 252px;
-left: 1310px;
-top: 1232px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-
-}
-
-/*raio*/
-
-.raio
-{
- 
-position: absolute;
-width: 47px;
-height: 47px;
-left: 358px;
-top: 1478.82px;
-
-background: url(raio.png);
-transform: matrix(0.7, 0.72, 0.72, -0.7, 0, 0);
-
-}
-
-.raiox
-{
-position: absolute;
-width: 165px;
-height: 24px;
-left: 300px;
-top: 1540px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-
-}
-
-.raiotex
-{
- 
-position: absolute;
-width: 220px;
-height: 162px;
-left: 280px;
-top: 1579px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-
-}
-
-/*google*/
-
-.goo
-{
-
-position: absolute;
-width: 43px;
-height: 43px;
-left: 695px;
-top: 1478.82px;
-
-background: url(google.png);
-
-}
-
-.goox
-{
- 
-
-position: absolute;
-width: 242px;
-height: 24px;
-left: 600px;
-top: 1540px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-
-}
-
-.gootex
-{
-  
-position: absolute;
-width: 221px;
-height: 162px;
-left: 610px;
-top: 1579px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-
-}
-
-.ace
-{
-
-position: absolute;
-width: 63px;
-height: 63px;
-left: 1056px;
-top: 1460px;
-
-
-}
-
-.acex
-{
-
-position: absolute;
-width: 150px;
-height: 24px;
-left: 1015px;
-top: 1540px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-
-}
-
-.acetex
-{
-  
-position: absolute;
-width: 221px;
-height: 162px;
-left: 989px;
-top: 1579px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-
-}
-
-.cell
-{
-
-position: absolute;
-width: 56px;
-height: 56px;
-left: 1400px;
-top: 1470px;
-
-}
-
-.cellx
-{
-
-position: absolute;
-width: 185px;
-height: 24px;
-left: 1336px;
-top: 1540px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 900;
-font-size: 20px;
-line-height: 24px;
-
-color: #521B04;
-
-
-}
-
-.celltex
-{
-  
-position: absolute;
-width: 224px;
-height: 162px;
-left: 1330px;
-top: 1579px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-
+/* Estilos para os textos */
+.usertex,
+.telatex,
+.suptex,
+.pertex,
+.raiotex,
+.gootex,
+.acetex,
+.celltex {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
 }

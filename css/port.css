@@ -193,7 +193,7 @@ color: #000000;
 
 .entre-link2
 {
-  display: block; 
+  display: flex; 
   margin: 750px auto 0; 
   margin-left: auto; 
   margin-right: auto; 
