@@ -38,8 +38,8 @@ body
 
 .logo-cafe {
   margin-top: 0.938rem;
-  margin-right: 37.5rem; /* Removendo a margem à direita */
-  margin-left: 0; /* Definindo a margem à esquerda */
+  margin-right: 37.5rem; 
+  margin-left: 0; 
   width: 7.5rem; 
   height: 6.75rem; 
 }
@@ -99,7 +99,7 @@ nav li a:hover{
 {
   width:96rem;
   display: block; 
-  margin: 9.375rem auto 0; 
+  margin: 14.375rem auto 0; 
   margin-left: auto; 
   margin-right: auto;
 }
@@ -173,13 +173,13 @@ nav li a:hover{
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  border: solid color:none;
+  border: solid none; 
   border-radius: 1.188rem;
-  width: 93.75rem; /* Largura do quadrado */
-  height: 43.938rem; /* Altura do quadrado */
-  background-color: #FFFEF8; /* Cor de fundo */
+  width: 93.75rem; 
+  height: 43.938rem; 
+  background-color: #FFFEF8; 
   margin: 1.5rem auto 0;
-  padding: 2rem; /* Adicionando preenchimento */
+  padding: 2rem; 
 }
 
 .section {
@@ -189,13 +189,13 @@ nav li a:hover{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   background-color: transparent;
-  border: solid 2px transparent; /* Adicionando uma borda transparente com a mesma largura */
-  transition: border-color 0.3s, padding 0.3s; /* Adicionando uma transição suave para a mudança de cor da borda e do padding */
+  border: solid 2px transparent; 
+  transition:  0.3s, padding 0.3s; 
 }
 
 .section:hover {
-  border-color: #44210E; /* Adicionando a cor da borda apenas no hover */
-  padding: 1.5rem; /* Restaurando o padding original no hover */
+  border-color: #44210E; 
+  padding: 1.5rem; 
 }
 
 .section h2 {
@@ -211,27 +211,13 @@ nav li a:hover{
 }
 
 /* Estilos para as imagens */
-.pincel,
-.Tela,
-.sup,
-.per,
-.raio,
-.goo,
-.ace,
-.cell {
+.img-van {
   width: 47px;
   height: 47px;
 }
 
 /* Estilos para os títulos */
-.userex,
-.telax,
-.supx,
-.perx,
-.raiox,
-.goox,
-.acex,
-.cellx {
+.titu-van {
   font-family: 'Inter';
   font-style: italic;
   font-weight: 900;
@@ -242,14 +228,7 @@ nav li a:hover{
 }
 
 /* Estilos para os textos */
-.usertex,
-.telatex,
-.suptex,
-.pertex,
-.raiotex,
-.gootex,
-.acetex,
-.celltex {
+.tex-van {
   font-family: 'Inter';
   font-style: italic;
   font-weight: 400;
