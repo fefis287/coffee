@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -82,7 +83,7 @@ html {
 .skil
 {
   display: block; 
-  margin: 750px auto 0; 
+  margin: 200px auto 0; 
   margin-left: auto; 
   margin-right: auto; 
   text-align:center;
@@ -98,132 +99,70 @@ html {
   font-weight: bold
 }
 
-.quadrado3
-{
-  
-
-box-sizing: border-box;
-
-position: absolute;
-width: 600px;
-height: 343px;
-left: 300px;
-top: 3100px;
-
-border: 2px solid #000000;
-border-radius: 19px;
-
+.quadrado-skil {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 40px; /* Espaçamento entre os quadrados */
 }
 
-.quadrado4
-{
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 600px;
-height: 343px;
-left: 960px;
-top: 3100px;
-
-border: 2px solid #000000;
-border-radius: 19px;
-
-}
-
-.html1
-{
-
-position: absolute;
-width: 64px;
-height: 64px;
-left: 100px;
-top: 15px;
-
-
-
-
-}
-
-
-.frontend
-{
- 
-  text-decoration: underline;
-
-position: absolute;
-width: 118px;
-height: 58px;
-left: 235px;
-top: 30px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-
-color: #000000;
-
-
-}
-
-.fonthtml{
-
-
-position: absolute;
-margin-top: 10px;
-width: 500px;
-height: 29px;
-left: 50px;
-top: 100px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 400px;
-font-size: 24px;
-line-height: 29px;
-
-
-color: #000000;
-
-}
-
-
-.entre-link2
-{
-  display: flex; 
-  margin: 750px auto 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  text-align:center;
-  width: 16rem;
-  border:none;
+.quadrado3 {
+  position: relative;
+  padding: 20px;
+  border: solid #44210E;
   border-radius: 1.188rem;
-  padding: .5rem 1.5rem .5rem 1.5rem;
-  background-color:#44210E;
-  font-size: 1.5rem;
-  color: #FFEEE4;
+  width: 600px;
+  height: 340px;
+  background-color: #FFFEF8;
+  box-sizing: border-box; /* Inclui padding e borda na largura e altura */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.program {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 47px;
+  height: 47px;
+}
+
+.frontend {
+  font-size: 1.25rem;
+  color: black;
   font-family:"Inter", sans-serif;
   font-style: black italic;
-  font-weight: bold
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px; /* Ajuste a margem superior para posicionar o título abaixo do ícone */
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
 }
 
-.quadrado5
-{
+.fonthtml {
+ margin-left: 30px;
+  padding-left: 0;
+  font-size: 24px; /* Ajuste o tamanho da fonte dos itens da lista */
+}
+
+.fonthtml li {
+  margin-bottom: 10px;
+}
+
+.fonthtml li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
   
-
-box-sizing: border-box;
-
-position: absolute;
-width: 643px;
-height: 120px;
-left: calc(50% - 643px/2 + 0.5px);
-top: 3880px;
-
-border: 2px solid #000000;
-border-radius: 19px;
-
 }
 
