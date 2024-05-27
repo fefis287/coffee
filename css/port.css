@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -36,7 +36,7 @@ html {
 .qm
 {
     display: block; 
-    margin: 12.5rem auto 0; 
+    margin: 15.5rem auto 0; 
     margin-left: auto; 
     margin-right: auto; 
     text-align:center;
@@ -54,7 +54,7 @@ html {
 
 .quadrado2
 {
-  padding: 0 80px 100px 80px; 
+  padding: 100px 80px 100px 80px; 
   margin-top: 10px;
   margin-left: auto; 
   margin-right: auto;
@@ -73,9 +73,10 @@ html {
 {
   font-size: 1.25rem;
   color: black;
-  font-family:"Inter", sans-serif;
-  font-style: black italic;
-  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   margin:0; 
 
 }
@@ -83,7 +84,7 @@ html {
 .skil
 {
   display: block; 
-  margin: 200px auto 0; 
+  margin: 15.5rem auto 0; 
   margin-left: auto; 
   margin-right: auto; 
   text-align:center;
@@ -131,8 +132,8 @@ html {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 47px;
-  height: 47px;
+  width: 57px;
+  height: 57px;
 }
 
 .frontend {
@@ -166,3 +167,99 @@ html {
   
 }
 
+.entre-link2
+{
+  display: block; 
+  margin: 15.5rem auto 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align:center;
+  width: 16rem;
+  border:none;
+  border-radius: 1.188rem;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  background-color:#44210E;
+  font-size: 1.5rem;
+  color: #FFEEE4;
+  font-family:"Inter", sans-serif;
+  font-style: black italic;
+  font-weight: bold
+}
+
+.quadrado-contato
+{
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.quadrado4
+{
+  align-items: center;
+  border: solid #44210E;
+  border-radius: 1.188rem;
+  width: 640px;
+  height: 120px;
+  background-color: #FFFEF8;
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.email
+{
+  padding: 10px;
+  width: 57px;
+  height: 57px;
+}
+
+.contax
+{
+text-decoration: none;
+font-size: 1.25rem;
+color: #000000;
+font-family:"Inter", sans-serif;
+font-style: black italic;
+font-weight: bold;
+width: 300px;
+height: 23px;
+}
+
+.contax:hover
+{
+  color: #44210E;
+  text-decoration: underline;
+}
+
+.git
+{
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.githe
+{
+  padding: 0;
+  width: 57px;
+  height: 57px;
+}
+
+.gith
+{
+  padding: 20px 10px 0 10px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #000000;
+  font-family:"Inter", sans-serif;
+  font-style: black italic;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+}
+
+.gith:hover{
+  color: #44210E;
+  text-decoration: underline;
+}

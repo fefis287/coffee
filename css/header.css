@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 300px;
 }
 
 *{
@@ -93,13 +94,17 @@ nav li a:hover{
 
 }
 
+main {
+  padding-top: 150px; /* Adjusted to prevent content from hiding under fixed header */
+}
+
 /* WebCoffee */
 
 .Webcoffe
 {
   width:96rem;
   display: block; 
-  margin: 14.375rem auto 0; 
+  margin: 6.375rem auto 0; 
   margin-left: auto; 
   margin-right: auto;
 }
@@ -178,7 +183,7 @@ nav li a:hover{
   width: 93.75rem; 
   height: 43.938rem; 
   background-color: #FFFEF8; 
-  margin: 1.5rem auto 0;
+  margin: .625rem auto 0;
   padding: 2rem; 
 }
 
